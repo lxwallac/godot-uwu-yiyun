@@ -1,0 +1,22 @@
+; Godot 4.3 工程配置
+; 如果你的 Godot 版本不同，打开时可能提示转换，允许即可
+
+config_version=5
+
+[application]
+
+config/name="UWU 一运模拟器"
+config/description="绝神兵 本体一运（追击之究极幻想）练习器"
+run/main_scene="res://main/Main.tscn"
+config/features=PackedStringArray("4.3", "Forward Plus")
+
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/stretch/mode="canvas_items"
+
+[rendering]
+
+anti_aliasing/quality/msaa_3d=2
+lights_and_shadows/directional_shadow/soft_shadow_filter_quality=2

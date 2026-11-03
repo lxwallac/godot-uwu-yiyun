@@ -1,0 +1,63 @@
+{
+  "version": "1.0",
+  "arena": 20,
+  "wall_x": 19.3,
+
+  "timeline": {
+    "cast_dur": 2.7,
+    "appear": 9.6,
+    "g_cast": 12.15,
+    "g_hit": 14.85,
+    "moon_hit": 16.05,
+    "t_cast1": 13.75,
+    "t_hit1": 15.65,
+    "t_cast2": 15.98,
+    "t_hit2": 17.88,
+    "f_cast": 23.5,
+    "f_hit": 24.2,
+    "retreat": 25.04,
+    "end": 28.0
+  },
+
+  "geo": {
+    "waymark_r": 18.1,
+    "garuda_r": 4.28,
+    "titan_r": 17.31,
+    "titan_side_deg": 10.0,
+    "ifrit_r": 19.89,
+    "ultima_r": 17.0,
+    "ultima_circle_r": 8.0
+  },
+
+  "hit": {
+    "line_w": 6.0,
+    "line_len": 40.0,
+    "dash_w": 9.0,
+    "dash_len": 44.0,
+    "moon_in": 7.0,
+    "moon_out": 20.0,
+    "feather_r": 3.0,
+    "body_r": 0.45
+  },
+
+  "move": {
+    "walk": 6.0,
+    "sprint_mul": 1.5
+  },
+
+  "marks": [
+    { "label": "A", "deg": 0,   "r": 18.1 },
+    { "label": "B", "deg": 90,  "r": 18.1 },
+    { "label": "C", "deg": 180, "r": 18.1 },
+    { "label": "D", "deg": 270, "r": 18.1 },
+    { "label": "1", "deg": 0,   "r": 0.0 },
+    { "label": "2", "deg": 292, "r": 9.86 }
+  ],
+
+  "bosses": {
+    "garuda": { "name": "迦楼罗",   "color": "#3ddc84", "height": 7.4 },
+    "ifrit":  { "name": "伊弗利特", "color": "#ff5f5f", "height": 6.2 },
+    "titan":  { "name": "泰坦",     "color": "#e0b23a", "height": 8.6 },
+    "ultima": { "name": "究极神兵", "color": "#a86bff", "height": 9.8 }
+  }
+}
