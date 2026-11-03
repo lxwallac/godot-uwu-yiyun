@@ -13,3 +13,11 @@ desktop.ini
 # 编辑器
 *.tmp
 *.bak
+
+# 第三方资源
+# 字体允许入库（9 MB，保证 clone 下来直接能显示中文）
+# 模型体积大，不入库，见 README
+assets/models/**/*.fbx
+assets/models/**/*.png
+assets/models/**/*.dds
+assets/models/**/*.import
